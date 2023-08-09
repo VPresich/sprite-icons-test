@@ -49,10 +49,32 @@ img {
   fill: white;
   width: 16px;
   height: 16px;
-
 }
-
 
 .social-links .link:hover .icon {
   fill: #4d5ae5; /*var(--iris, #4D5AE5);*/
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.feature-card {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 32px 120px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  background: var(--cloud, #f4f4fd);
+  margin: 16px;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
 }
